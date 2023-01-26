@@ -24,7 +24,7 @@ class AppFixtures extends Fixture
         $manager->persist($microPost2);
 
         $microPost3 = new MicroPost();
-        $microPost3->setTitle('Bienvenue en Espagn!');
+        $microPost3->setTitle('Bienvenue en Espagne!');
         $microPost3->setText('Bienvenue en Espagne!');
         $microPost3->setCreated(new DateTime());
         $manager->persist($microPost3);
